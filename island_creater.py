@@ -126,7 +126,7 @@ def create_island(matrix: list[[]] = matrix):
             count_cols = len(matrix[0])
 
         def add_lines(side: str = "left", lines_add: int = 0):
-            """добавляет строки/столбцы матрицы со стороны side в количестве lines_remove"""
+            """добавляет строки/столбцы матрицы со стороны side в количестве lines_add"""
             nonlocal count_rows
             nonlocal count_cols
             if side == "left":
